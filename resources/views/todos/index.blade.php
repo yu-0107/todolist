@@ -5,7 +5,7 @@
 <html>
 <head><title>Todo List</title></head>
 <body>
-<div class="container mt-5">
+<div class="container mt-5" style="max-width: 600px;">
     <h1 class="mb-4">📋 Todo List</h1>
     <a href="{{ route('todos.create') }}" class="btn btn-primary mb-3">＋ 新增 Todo</a>
 
